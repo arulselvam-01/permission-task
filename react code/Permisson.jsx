@@ -218,7 +218,7 @@ export const Permisson = () => {
                                     style={{ accentColor: pri_col }}/>
                                 </td>
                                 <td><input
-                                    checked={data.expense_claim.v}
+                                    checked={data.expense_claim.view}
                                     onChange={(e)=>{check_func("expense_claim", "view", e.target.checked)}}
                                     type="checkbox"
                                     style={{ accentColor: pri_col }}/>
